@@ -1,6 +1,6 @@
 # coding = utf-8
 
-import shapefile
+import shapefile  #install pyshp
 import numpy as np
 from matplotlib.path import Path
 from matplotlib.patches import PathPatch
