@@ -10,7 +10,7 @@ from shapely.geometry import Polygon
 from shapely.ops import cascaded_union
 import matplotlib.pyplot as plt
 
-shp = shapefile.Reader(r'DTool\dishi.shp')
+shp = shapefile.Reader('dishi.shp')
 rec = shp.shapeRecords()
 polygon = []
 for r in rec:
